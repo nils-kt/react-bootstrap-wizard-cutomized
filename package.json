@@ -1,0 +1,65 @@
+{
+  "author": {
+    "name": "Creative Tim",
+    "email": "hello@creative-tim.com",
+    "url": "https://www.creative-tim.com/"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "env",
+      "stage-0"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/nils-kt/react-bootstrap-wizard-cutomized/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A react component package that allows you to split a complicated flow or a complicated form in multiple steps.",
+  "devDependencies": {
+    "babel-cli": "6.18.0",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-react": "6.16.0",
+    "babel-preset-stage-0": "6.16.0",
+    "node-sass-chokidar": "1.3.3"
+  },
+  "homepage": "https://github.com/nils-kt/react-bootstrap-wizard-cutomized#readme",
+  "keywords": [
+    "react",
+    "component",
+    "react-component",
+    "reactstrap",
+    "reactstrap-component",
+    "wizard",
+    "react-wizard",
+    "form",
+    "form-wizard",
+    "bootstrap",
+    "bootstrap4",
+    "webdesign",
+    "reactjs",
+    "responsive",
+    "bootstrap-wizard",
+    "bootstrap-form-wizard",
+    "reactstrap-wizard"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "react-bootstrap-wizard",
+  "peerDependencies": {
+    "react": "16.x.x",
+    "reactstrap": "7.x.x",
+    "prop-types": "15.x.x",
+    "classnames": "2.x.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nils-kt/react-bootstrap-wizard-cutomized.git"
+  },
+  "scripts": {
+    "build": "mkdir -p dist && babel index.js -o dist/index.js && npm run build-css",
+    "build-css": "node-sass-chokidar ./dist/react-wizard.scss -o dist/"
+  },
+  "version": "0.0.7"
+}
