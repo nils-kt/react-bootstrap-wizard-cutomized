@@ -14,7 +14,7 @@ npm install --save react-bootstrap-wizard-customized@latest
 
 Import *react-wizard* in your component:
 ```
-import ReactWizard from 'react-bootstrap-wizard';
+import ReactWizard from 'react-bootstrap-wizard-customized';
 ```
 After that, in your component render method add the following line:
 ```
@@ -151,7 +151,7 @@ function finishButtonClick(allStepStates)
 ```
 import React from "react";
 import ReactDOM from "react-dom";
-import ReactWizard from "react-bootstrap-wizard";
+import ReactWizard from "react-bootstrap-wizard-customized";
 import { Container, Row, Col } from "reactstrap";
 
 import "bootstrap/dist/css/bootstrap.css";
@@ -239,11 +239,11 @@ ReactDOM.render(<WizardExample />, document.getElementById("root"));
 Be sure to include the styles in your project.
 You can either include the css:
 ```
-import "react-bootstrap-wizard/dist/react-wizard.css"
+import "react-bootstrap-wizard-customized/dist/react-wizard.css"
 ```
 Or the scss
 ```
-import "react-bootstrap-wizard/dist/react-wizard.scss"
+import "react-bootstrap-wizard-customized/dist/react-wizard.scss"
 ```
 
 ## Dependencies
