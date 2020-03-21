@@ -7,7 +7,7 @@
 ## Installation
 
 ```
-npm install --save react-bootstrap-wizard@latest
+npm install --save react-bootstrap-wizard-customized@latest
 ```
 
 ## Usage
