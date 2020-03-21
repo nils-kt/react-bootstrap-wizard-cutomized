@@ -1,5 +1,5 @@
 ## Customized - 2020-03-21
-## Enhancement
+### Enhancement
 - Added headerTextColor property 
 
 ## [0.0.6] 2019-01-14
